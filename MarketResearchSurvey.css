@@ -1,0 +1,31 @@
+body {
+    font-family: Calibri, "Times New Roman", Times, serif;
+}
+.tb1 {
+    width: 40%;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+th:nth-child(n+2) {
+    width: 150px;
+}
+tr td {
+    text-align: center;
+}
+thead tr{
+    background-color: lightgray;
+}
+tbody tr:nth-child(even) {
+    background-color: antiquewhite;
+}
+#submit {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
